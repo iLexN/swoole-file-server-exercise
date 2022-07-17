@@ -1,0 +1,21 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\FileServer\\": "src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "lcobucci/jwt": "^4.1",
+        "monolog/monolog": "^3.1",
+        "symfony/mime": "^6.1",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
